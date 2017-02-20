@@ -1,4 +1,4 @@
-city,statistical concept,country,1970,1980,1990,2000,2010,2016,2030,latitude,longitude
+city,statistical concept,country,pop_1970(thousands),pop_1980(thousands),pop_1990(thousands),pop_2000(thousands),pop_2010(thousands),pop_2016(thousands),pop_2030(thousands),latitude,longitude
 Busan,city proper,South Korea,1876,3157,3796,3594,3393,3200,3264,35.1796,129.08
 Tokyo,metropolitan area,Japan,24113,28697,31796,34450,36657,38140,37190,35.6895,139.69
 Beijiing,Urban Agglomeration,China,8087,9029,10819,10162,11529,21240,27706,39.9,116.41

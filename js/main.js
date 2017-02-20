@@ -65,16 +65,20 @@ function onEachFeature(feature, layer){
 };*/
 
 function createPropSymbols(data,mymap){
-	var geojsonMarkerOptions ={
-		radius: 8,
-		fillColor:"E995AA",
-		color:"DD3F65",
-		weight:1,
+	var geojsonMarkerOptions={
+		radius: 10,
+		fillColor:"#85C1E9",
+		color:"#3498DB",
+		weight:2,
 		opacity:1,
 		fillOpacity:0.85
 	};
+	var attribute= "pop_1970(thousands)";
 	L.geoJson(data,{
 		pointToLayer: function (feature, latlng){
+			var attValue=Number(feature.properties[attribute]);
+			//console.log(feature.properties, attValue);
+			geojsonMarkerOptions.radius=calcPropRadius(attValue);
 			return L.circleMarker(latlng, geojsonMarkerOptions);
 		}
 	}).addTo(mymap);
@@ -88,7 +92,13 @@ function getData(mymap){
 		}
 	});
 };
-
+function calcPropRadius(attValue){
+	var scaleFactor=0.5;
+	var area=attValue * scaleFactor;
+	var radius= Math.sqrt(area/Math.PI);
+	return radius;
+	console.log(radius)
+};
 
 
 
