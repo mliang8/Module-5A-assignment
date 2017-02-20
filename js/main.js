@@ -33,7 +33,7 @@ function onEachFeature(feature, layer){
 
 
 //create a getData function using the map as a parametr to add a stylized marker and the attribute information onto the map
-function getData(mymap){
+/*function getData(mymap){
 	//using ajax to load the geojson file
 	$.ajax('data/cities_pop.geojson',{
 		//specify the file type
@@ -60,9 +60,61 @@ function getData(mymap){
 			/*L.geoJson(response, {
                 onEachFeature: onEachFeature
             }).addTo(mymap);*/
+/*		}
+	});
+};*/
+
+function createPropSymbols(data,mymap){
+	var geojsonMarkerOptions ={
+		radius: 8,
+		fillColor:"E995AA",
+		color:"DD3F65",
+		weight:1,
+		opacity:1,
+		fillOpacity:0.85
+	};
+	L.geoJson(data,{
+		pointToLayer: function (feature, latlng){
+			return L.circleMarker(latlng, geojsonMarkerOptions);
+		}
+	}).addTo(mymap);
+};
+
+function getData(mymap){
+	$.ajax("data/cities_pop.geojson",{
+		dataType:"json",
+		success:function (response){
+			createPropSymbols(response, mymap);
 		}
 	});
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //call the createMap function when the document has loaded
