@@ -1,0 +1,335 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 1876,
+        "1980": 3157,
+        "1990": 3796,
+        "2000": 3594,
+        "2010": 3393,
+        "2016": 3200,
+        "2030": 3264,
+        "city": "Busan",
+        "statistical concept": "city proper",
+        "country": "South Korea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.08,
+          35.1796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 24113,
+        "1980": 28697,
+        "1990": 31796,
+        "2000": 34450,
+        "2010": 36657,
+        "2016": 38140,
+        "2030": 37190,
+        "city": "Tokyo",
+        "statistical concept": "metropolitan area",
+        "country": "Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69,
+          35.6895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 8087,
+        "1980": 9029,
+        "1990": 10819,
+        "2000": 10162,
+        "2010": 11529,
+        "2016": 21240,
+        "2030": 27706,
+        "city": "Beijiing",
+        "statistical concept": "Urban Agglomeration",
+        "country": "China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.41,
+          39.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 114,
+        "1980": 137,
+        "1990": 552,
+        "2000": 3631,
+        "2010": 7271,
+        "2016": 7469,
+        "2030": 8701,
+        "city": "Dongguan",
+        "statistical concept": "Urban Agglomeration",
+        "country": "China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.75,
+          23.0207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 296,
+        "1980": 404,
+        "1990": 424,
+        "2000": 805,
+        "2010": 964,
+        "2016": 1056,
+        "2030": 1310,
+        "city": "Guilin",
+        "statistical concept": "Urban Agglomeration",
+        "country": "China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.18,
+          25.2345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 472,
+        "1980": 977,
+        "1990": 1565,
+        "2000": 2401,
+        "2010": 3468,
+        "2016": 4842,
+        "2030": 8280,
+        "city": "Kabul",
+        "statistical concept": "city proper",
+        "country": "Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.2075,
+          34.5553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 147,
+        "1980": 225,
+        "1990": 398,
+        "2000": 644,
+        "2010": 974,
+        "2016": 1224,
+        "2030": 1855,
+        "city": "Kathmandu",
+        "statistical concept": "city proper",
+        "country": "Nepal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.32,
+          27.7172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 2074,
+        "1980": 2414,
+        "1990": 3047,
+        "2000": 3918,
+        "2010": 5077,
+        "2016": 5717,
+        "2030": 6578,
+        "city": "Singapore",
+        "statistical concept": "Urban Agglomeration",
+        "country": "Singapore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 2788,
+        "1980": 4397,
+        "1990": 6544,
+        "2000": 8744,
+        "2010": 10807,
+        "2016": 14365,
+        "2030": 16694,
+        "city": "Istanbul",
+        "statistical concept": "Urban Agglomeration",
+        "country": "Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.98,
+          41.0082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 881,
+        "1980": 1065,
+        "1990": 1191,
+        "2000": 1128,
+        "2010": 1192,
+        "2016": 1230,
+        "2030": 1230,
+        "city": "Sofia",
+        "statistical concept": "Urban Agglomeration",
+        "country": "Bulgaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.32,
+          42.6977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 1380,
+        "1980": 1096,
+        "1990": 1035,
+        "2000": 1077,
+        "2010": 1192,
+        "2016": 1281,
+        "2030": 1455,
+        "city": "Copenhagen",
+        "statistical concept": "Urban Agglomeration",
+        "country": "Denmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.57,
+          55.6761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 2396,
+        "1980": 2343,
+        "1990": 2282,
+        "2000": 2248,
+        "2010": 2216,
+        "2016": 2668,
+        "2030": 2968,
+        "city": "Manchester",
+        "statistical concept": "Urban Agglomeration",
+        "country": "United Kingdom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.24,
+          53.4808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 2000,
+        "1980": 2186,
+        "1990": 2208,
+        "2000": 2232,
+        "2010": 2348,
+        "2016": 2198,
+        "2030": 2226,
+        "city": "Naples",
+        "statistical concept": "Metropolitan area",
+        "country": "Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.27,
+          40.8518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 1506,
+        "1980": 2269,
+        "1990": 3011,
+        "2000": 3724,
+        "2010": 4442,
+        "2016": 4920,
+        "2030": 5837,
+        "city": "Guadalajara",
+        "statistical concept": "Metropolitan area",
+        "country": "Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.35,
+          20.6597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1970": 7106,
+        "1980": 7216,
+        "1990": 7374,
+        "2000": 8315,
+        "2010": 9545,
+        "2016": 8755,
+        "2030": 9493,
+        "city": "Chicago",
+        "statistical concept": "Urban Agglomeration",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624421,
+          41.8781
+        ]
+      }
+    }
+  ]
+}
